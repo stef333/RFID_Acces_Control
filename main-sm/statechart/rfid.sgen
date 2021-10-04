@@ -1,0 +1,15 @@
+GeneratorModel for yakindu::c {
+
+	const PROJECT : string = "rfid"
+
+	const FOLDER : string = "main-sm/statechart/src-gen"
+
+	statechart rfid_sm {
+
+		feature Outlet {
+			targetProject = PROJECT
+			targetFolder = FOLDER
+			libraryTargetFolder = "main-sm/statechart/src"
+		}
+	}
+}
